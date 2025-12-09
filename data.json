@@ -1,0 +1,76 @@
+{
+    "profile": {
+        "name": "Nguyễn Văn A",
+        "role": "n8n Automation Engineer",
+        "greeting": "Xin chào, tôi là",
+        "desc": "Chuyển đổi từ <strong>RPA Developer</strong> sang tối ưu hóa hệ thống với <strong>n8n & Python</strong>. Tôi chuyên xử lý các workflow phức tạp, yêu cầu coding (JS/Python) và tích hợp sâu vào Database.",
+        "email": "email-cua-ban@gmail.com",
+        "github": "https://github.com/username",
+        "linkedin": "https://linkedin.com/in/username"
+    },
+    "about": {
+        "text_1": "Với nền tảng là một <strong>RPA Developer</strong> (UiPath, Power Automate), tôi sở hữu tư duy quy trình chặt chẽ (Process Mindset). Tuy nhiên, tôi nhận thấy sức mạnh linh hoạt của <strong>n8n</strong> trong việc orchestrate các hệ thống API.",
+        "text_2": "Sự khác biệt của tôi nằm ở kỹ năng <strong>Lập trình (Coding)</strong>. Tôi không chỉ kéo thả node; tôi viết <strong>JavaScript</strong> để xử lý dữ liệu JSON phức tạp, dùng <strong>Python/Django</strong> để xây dựng Backend tùy chỉnh và viết <strong>Google Apps Script</strong> để tối ưu hóa Google Workspace."
+    },
+    "skills": [
+        {
+            "icon": "fas fa-project-diagram",
+            "title": "Automation Core",
+            "items": [
+                "<strong>n8n (Expert)</strong>: Webhook, Merge, Split In Batches, Error Trigger.",
+                "<strong>RPA</strong>: UiPath, Power Automate (Desktop flows)."
+            ]
+        },
+        {
+            "icon": "fas fa-code",
+            "title": "Programming",
+            "items": [
+                "<strong>JavaScript</strong>: Xử lý logic trong n8n Function Node.",
+                "<strong>Python & Django</strong>: Xây dựng API & Backend.",
+                "<strong>Google Apps Script</strong>: Automation cho Sheets/Drive."
+            ]
+        },
+        {
+            "icon": "fas fa-database",
+            "title": "Data & Backend",
+            "items": [
+                "<strong>SQL</strong>: MySQL, PostgreSQL (Design & Query).",
+                "<strong>Integration</strong>: REST API, JSON/XML, Webhooks."
+            ]
+        },
+        {
+            "icon": "fas fa-server",
+            "title": "DevOps & Tools",
+            "items": [
+                "<strong>Deploy</strong>: Docker (Self-hosted n8n), VPS.",
+                "<strong>Tools</strong>: Git/Github, Postman, Robot Framework."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "badge": "Marketing Ops",
+            "image": "https://cdn.24h.com.vn/upload/4-2025/images/2025-12-05/-1764938197-658-width1342height1372.png",
+            "title": "Lead Sync System",
+            "stack": ["n8n", "JavaScript", "PostgreSQL", "Slack"],
+            "desc": "Hệ thống hứng Webhook từ Facebook Ads. Sử dụng JS Node để làm sạch dữ liệu, dedup (lọc trùng) trong PostgreSQL và bắn thông báo Slack realtime cho Sales team.",
+            "link": "#"
+        },
+        {
+            "badge": "HR Automation",
+            "image": "https://miro.medium.com/v2/resize:fit:1400/1*F_d-tGjWnU8XG2NLeB30ng.png",
+            "title": "Smart Onboarding",
+            "stack": ["n8n", "Google Apps Script", "Gmail API"],
+            "desc": "Kết hợp n8n và GAS. Khi nhân sự mới điền form, hệ thống tự động tạo email công ty, phân quyền folder Drive (điều API thường khó làm) và gửi mail chào mừng.",
+            "link": "#"
+        },
+        {
+            "badge": "E-commerce",
+            "image": "https://community.n8n.io/uploads/default/original/2X/c/c5270258074900a0e5091e922df67435277eb372.png",
+            "title": "Order Management Pipeline",
+            "stack": ["n8n", "Python/Django", "MySQL"],
+            "desc": "Đồng bộ đơn hàng từ WooCommerce về ERP nội bộ (Django). n8n đóng vai trò middleware xử lý mapping JSON, tính toán tồn kho và cập nhật ngược lại website.",
+            "link": "#"
+        }
+    ]
+}

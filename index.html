@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Automation Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Dev<span>Automation.</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#about">Về tôi</a></li>
+            <li><a href="#skills">Kỹ năng</a></li>
+            <li><a href="#projects">Dự án</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="greeting" id="hero-greeting">Loading...</span>
+            <h1><span id="hero-name"></span><br><span class="highlight" id="hero-role"></span></h1>
+            <p class="description" id="hero-desc"></p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn primary-btn">Xem Workflow</a>
+                <a href="#contact" class="btn secondary-btn">Liên Hệ</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <h2 class="section-title">Giới Thiệu</h2>
+        <div class="about-content">
+            <div class="about-text" id="about-text">
+                <!-- Data injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container bg-alt">
+        <h2 class="section-title">Kỹ Năng & Công Nghệ</h2>
+        <div class="skills-grid" id="skills-grid">
+            <!-- Data injected via JS -->
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2 class="section-title">Dự Án Thực Tế</h2>
+        <div class="project-grid" id="project-grid">
+            <!-- Data injected via JS -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <div class="contact-box">
+            <h2>Sẵn sàng tối ưu hóa doanh nghiệp?</h2>
+            <p>Kết nối ngay để trao đổi về giải pháp Automation.</p>
+            <a href="#" class="btn primary-btn email-btn" id="contact-email">
+                <i class="fas fa-envelope"></i> <span>Contact Me</span>
+            </a>
+            <div class="social-links">
+                <a href="#" target="_blank" id="contact-github"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" id="contact-linkedin"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Automation Portfolio. Designed for Success.</p>
+    </footer>
+
+    <!-- Image Modal (Lightbox) -->
+    <div id="image-modal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
