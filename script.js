@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // --- Functions Render ---
 function renderHero(profile) {
     const greetingEl = document.getElementById('hero-greeting');
-    if (greetingEl) greetingEl.textContent = `${profile.greeting} ${profile.name}`;
+    if (greetingEl) greetingEl.textContent = `${profile.greeting} `;
     document.getElementById('hero-name').textContent = profile.name;
     document.getElementById('hero-role').textContent = profile.role;
     document.getElementById('hero-desc').innerHTML = profile.desc;

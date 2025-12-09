@@ -1,24 +1,24 @@
 {
     "profile": {
-        "name": "Nguyễn Văn A",
-        "role": "n8n Automation Engineer",
+        "name": "Nguyễn Trung Hiếu",
+        "role": "Automation Engineer",
         "greeting": "Xin chào, tôi là",
-        "desc": "Chuyển đổi từ <strong>RPA Developer</strong> sang tối ưu hóa hệ thống với <strong>n8n & Python</strong>. Tôi chuyên xử lý các workflow phức tạp, yêu cầu coding (JS/Python) và tích hợp sâu vào Database.",
-        "email": "email-cua-ban@gmail.com",
-        "github": "https://github.com/username",
-        "linkedin": "https://linkedin.com/in/username"
+        "desc": "Tôi là <strong>Automation Developer</strong>, đam mê tối ưu hóa quy trình và hệ thống. Sử dụng các công cụ để xây dựng workflow tự động hóa thông minh, kết nối dữ liệu và giảm thiểu thao tác thủ công.",
+        "email": "hieunt0214@gmail.com",
+        "github": "https://github.com/hieunt1402",
+        "linkedin": "https://www.linkedin.com/in/nguyen-hieu-637736268/"
     },
     "about": {
-        "text_1": "Với nền tảng là một <strong>RPA Developer</strong> (UiPath, Power Automate), tôi sở hữu tư duy quy trình chặt chẽ (Process Mindset). Tuy nhiên, tôi nhận thấy sức mạnh linh hoạt của <strong>n8n</strong> trong việc orchestrate các hệ thống API.",
-        "text_2": "Sự khác biệt của tôi nằm ở kỹ năng <strong>Lập trình (Coding)</strong>. Tôi không chỉ kéo thả node; tôi viết <strong>JavaScript</strong> để xử lý dữ liệu JSON phức tạp, dùng <strong>Python/Django</strong> để xây dựng Backend tùy chỉnh và viết <strong>Google Apps Script</strong> để tối ưu hóa Google Workspace."
+        "text_1": "Hiện tại tôi đang làm việc với vai trò <strong>RPA Developer</strong>  chuyên triển khai giải pháp tự động hóa quy trình bằng <strong>UiPath</strong> và <strong>Power Automate</strong>. Các dự án tôi thực hiện đã giúp công ty tiết kiệm hàng nghìn giờ làm việc thủ công, tối ưu hóa hiệu suất và giảm thiểu sai sót.",
+        "text_2": "Bên cạnh đó, tôi có kiến thức về <strong>n8n</strong> và khả năng áp dụng công cụ này trong các tác vụ tự động hóa, đặc biệt khi cần orchestrate nhiều hệ thống thông qua API. Ngoài ra tôi có một số kỹ năng để mở rộng khả năng tự động hóa như <strong>Google Apps Script</strong>, <strong>xử lí API</strong>, <strong>Triển khai Self-hosting qua Docker</strong>, <strong>Kết nối và thao tác với Database</strong>,<strong>...</strong>."
     },
     "skills": [
         {
             "icon": "fas fa-project-diagram",
             "title": "Automation Core",
             "items": [
-                "<strong>n8n (Expert)</strong>: Webhook, Merge, Split In Batches, Error Trigger.",
-                "<strong>RPA</strong>: UiPath, Power Automate (Desktop flows)."
+                "<strong>n8n</strong>: Webhook, AI Agent, API, Error Trigger.",
+                "<strong>RPA</strong>: UiPath, Power Automate, Robot Framework (Desktop flows)."
             ]
         },
         {
@@ -26,15 +26,15 @@
             "title": "Programming",
             "items": [
                 "<strong>JavaScript</strong>: Xử lý logic trong n8n Function Node.",
-                "<strong>Python & Django</strong>: Xây dựng API & Backend.",
-                "<strong>Google Apps Script</strong>: Automation cho Sheets/Drive."
+                "<strong>Python & FastAPI</strong>: Xây dựng API & Backend.",
+                "<strong>Google Apps Script</strong>: Automation cho Google eco."
             ]
         },
         {
             "icon": "fas fa-database",
             "title": "Data & Backend",
             "items": [
-                "<strong>SQL</strong>: MySQL, PostgreSQL (Design & Query).",
+                "<strong>SQL</strong>: PostgreSQL (Design & Query).",
                 "<strong>Integration</strong>: REST API, JSON/XML, Webhooks."
             ]
         },
@@ -43,34 +43,34 @@
             "title": "DevOps & Tools",
             "items": [
                 "<strong>Deploy</strong>: Docker (Self-hosted n8n), VPS.",
-                "<strong>Tools</strong>: Git/Github, Postman, Robot Framework."
+                "<strong>Tools</strong>: Git/Github."
             ]
         }
     ],
     "projects": [
         {
-            "badge": "Marketing Ops",
-            "image": "https://cdn.24h.com.vn/upload/4-2025/images/2025-12-05/-1764938197-658-width1342height1372.png",
-            "title": "Lead Sync System",
-            "stack": ["n8n", "JavaScript", "PostgreSQL", "Slack"],
-            "desc": "Hệ thống hứng Webhook từ Facebook Ads. Sử dụng JS Node để làm sạch dữ liệu, dedup (lọc trùng) trong PostgreSQL và bắn thông báo Slack realtime cho Sales team.",
-            "link": "#"
+            "badge": "Video summarizer",
+            "image": "./assets/wf1.png",
+            "title": "Youtube Video Summarizer",
+            "stack": ["n8n", "Gemini API", "Youtube API", "ffmpeg"],
+            "desc": "Sử dụng Gemini để tạo script tổng hợp youtube video. Tự động tạo ảnh background, tạo audio, sử dụng ffmpeg để tạo video và tự động upload youtube short.",
+            "link": "https://github.com/hieunt1402/n8n"
         },
         {
-            "badge": "HR Automation",
-            "image": "https://miro.medium.com/v2/resize:fit:1400/1*F_d-tGjWnU8XG2NLeB30ng.png",
-            "title": "Smart Onboarding",
-            "stack": ["n8n", "Google Apps Script", "Gmail API"],
-            "desc": "Kết hợp n8n và GAS. Khi nhân sự mới điền form, hệ thống tự động tạo email công ty, phân quyền folder Drive (điều API thường khó làm) và gửi mail chào mừng.",
-            "link": "#"
+            "badge": "Douyin dowloader",
+            "image": "./assets/wf2.png",
+            "title": "Douyin Video Downloader",
+            "stack": ["n8n Form", "Tikhub API"],
+            "desc": "Sử dụng Tikhub API để tải video Douyin không logo. Tự động uplaod lên nextcloud và gửi link chia sẻ qua n8n form",
+            "link": "https://github.com/hieunt1402/n8n"
         },
         {
-            "badge": "E-commerce",
-            "image": "https://community.n8n.io/uploads/default/original/2X/c/c5270258074900a0e5091e922df67435277eb372.png",
-            "title": "Order Management Pipeline",
-            "stack": ["n8n", "Python/Django", "MySQL"],
-            "desc": "Đồng bộ đơn hàng từ WooCommerce về ERP nội bộ (Django). n8n đóng vai trò middleware xử lý mapping JSON, tính toán tồn kho và cập nhật ngược lại website.",
-            "link": "#"
+            "badge": "Chatbot AI",
+            "image": "./assets/wf3.png",
+            "title": "Facebook Page Chatbot AI",
+            "stack": ["n8n", "Facebook webhook/API", "postgreSQL"],
+            "desc": "Facebook page chatbot tích hợp AI. Trả lời theo dữ liệu có sẵn, gửi hình ảnh, hỗ trợ chốt đơn và lưu thông tin khách hàng. Có thể tích hợp nhiều page cùng lúc.",
+            "link": "https://github.com/hieunt1402/n8n"
         }
     ]
 }
