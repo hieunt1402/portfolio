@@ -1,76 +1,446 @@
 {
-    "profile": {
-        "name": "Nguyễn Trung Hiếu",
-        "role": "Automation Engineer",
-        "greeting": "Xin chào, tôi là",
-        "desc": "Tôi là <strong>Automation Developer</strong>, đam mê tối ưu hóa quy trình và hệ thống. Sử dụng các công cụ để xây dựng workflow tự động hóa thông minh, kết nối dữ liệu và giảm thiểu thao tác thủ công.",
-        "email": "hieunt0214@gmail.com",
-        "github": "https://github.com/hieunt1402",
-        "linkedin": "https://www.linkedin.com/in/nguyen-hieu-637736268/"
+  "site": {
+    "title": {
+      "vi": "Nguyễn Trung Hiếu | Automation Engineer",
+      "en": "Nguyen Trung Hieu | Automation Engineer"
+    }
+  },
+  "ui": {
+    "navigation": [
+      {
+        "href": "home",
+        "label": {
+          "vi": "Trang chủ",
+          "en": "Home"
+        }
+      },
+      {
+        "href": "about",
+        "label": {
+          "vi": "Về tôi",
+          "en": "About"
+        }
+      },
+      {
+        "href": "skills",
+        "label": {
+          "vi": "Kỹ năng",
+          "en": "Skills"
+        }
+      },
+      {
+        "href": "projects",
+        "label": {
+          "vi": "Dự án",
+          "en": "Projects"
+        }
+      },
+      {
+        "href": "contact",
+        "label": {
+          "vi": "Liên hệ",
+          "en": "Contact"
+        }
+      }
+    ],
+    "heroPanelLabel": {
+      "vi": "Năng lực cốt lõi",
+      "en": "Core strengths"
+    },
+    "buttons": {
+      "viewProjects": {
+        "vi": "Xem dự án",
+        "en": "View projects"
+      },
+      "contactMe": {
+        "vi": "Liên hệ",
+        "en": "Contact me"
+      },
+      "viewGithub": {
+        "vi": "GitHub của tôi",
+        "en": "My GitHub"
+      },
+      "viewRepo": {
+        "vi": "Xem source",
+        "en": "View repository"
+      },
+      "viewDemo": {
+        "vi": "Xem demo",
+        "en": "View demo"
+      },
+      "sendEmail": {
+        "vi": "Gửi email",
+        "en": "Send email"
+      },
+      "connectLinkedin": {
+        "vi": "Kết nối LinkedIn",
+        "en": "Connect on LinkedIn"
+      }
     },
     "about": {
-        "text_1": "Hiện tại tôi đang làm việc với vai trò <strong>RPA Developer</strong>  chuyên triển khai giải pháp tự động hóa quy trình bằng <strong>UiPath</strong> và <strong>Power Automate</strong>. Các dự án tôi thực hiện đã giúp công ty tiết kiệm hàng nghìn giờ làm việc thủ công, tối ưu hóa hiệu suất và giảm thiểu sai sót.",
-        "text_2": "Bên cạnh đó, tôi có kiến thức về <strong>n8n</strong> và khả năng áp dụng công cụ này trong các tác vụ tự động hóa, đặc biệt khi cần orchestrate nhiều hệ thống thông qua API. Ngoài ra tôi có một số kỹ năng để mở rộng khả năng tự động hóa như <strong>Google Apps Script</strong>, <strong>xử lí API</strong>, <strong>Triển khai Self-hosting qua Docker</strong>, <strong>Kết nối và thao tác với Database</strong>,<strong>...</strong>."
+      "kicker": {
+        "vi": "Giới thiệu",
+        "en": "About"
+      },
+      "title": {
+        "vi": "Xây workflow đáng tin cậy, dễ mở rộng và phục vụ đúng bài toán",
+        "en": "Building reliable, scalable workflows that solve real business bottlenecks"
+      },
+      "description": {
+        "vi": "Tôi tập trung vào tự động hóa có thể vận hành thực tế: giảm thao tác lặp lại, kết nối hệ thống, chuẩn hóa dữ liệu và tạo quy trình dễ bàn giao cho đội vận hành.",
+        "en": "I focus on production-ready automation: reducing repetitive work, connecting systems, standardizing data, and delivering workflows that operations teams can actually maintain."
+      }
     },
-    "skills": [
-        {
-            "icon": "fas fa-project-diagram",
-            "title": "Automation Core",
-            "items": [
-                "<strong>n8n</strong>: Webhook, AI Agent, API, Error Trigger.",
-                "<strong>RPA</strong>: UiPath, Power Automate, Robot Framework (Desktop flows)."
-            ]
-        },
-        {
-            "icon": "fas fa-code",
-            "title": "Programming",
-            "items": [
-                "<strong>JavaScript</strong>: Xử lý logic trong n8n Function Node.",
-                "<strong>Python & FastAPI</strong>: Xây dựng API & Backend.",
-                "<strong>Google Apps Script</strong>: Automation cho Google eco."
-            ]
-        },
-        {
-            "icon": "fas fa-database",
-            "title": "Data & Backend",
-            "items": [
-                "<strong>SQL</strong>: PostgreSQL (Design & Query).",
-                "<strong>Integration</strong>: REST API, JSON/XML, Webhooks."
-            ]
-        },
-        {
-            "icon": "fas fa-server",
-            "title": "DevOps & Tools",
-            "items": [
-                "<strong>Deploy</strong>: Docker (Self-hosted n8n), VPS.",
-                "<strong>Tools</strong>: Git/Github."
-            ]
-        }
+    "skills": {
+      "kicker": {
+        "vi": "Năng lực",
+        "en": "Capabilities"
+      },
+      "title": {
+        "vi": "Tech stack cho automation end-to-end",
+        "en": "An end-to-end automation toolkit"
+      },
+      "description": {
+        "vi": "Từ RPA và workflow orchestration đến API integration, self-hosting và data handling — tôi xây giải pháp theo hướng dễ vận hành và bảo trì lâu dài.",
+        "en": "From RPA and workflow orchestration to API integration, self-hosting and data handling — I build solutions with long-term maintainability in mind."
+      }
+    },
+    "projects": {
+      "kicker": {
+        "vi": "Dự án nổi bật",
+        "en": "Featured work"
+      },
+      "title": {
+        "vi": "Các workflow tôi đã thiết kế và triển khai",
+        "en": "Selected workflows I designed and shipped"
+      },
+      "description": {
+        "vi": "Mỗi dự án được trình bày theo cấu trúc problem → solution → impact để thể hiện rõ tư duy triển khai automation theo giá trị kinh doanh.",
+        "en": "Each project is structured as problem → solution → impact to show how I approach automation from a business-value perspective."
+      },
+      "ghostLink": {
+        "vi": "Trao đổi về dự án của bạn →",
+        "en": "Let’s discuss your workflow →"
+      }
+    },
+    "projectLabels": {
+      "problem": {
+        "vi": "Bài toán",
+        "en": "Problem"
+      },
+      "solution": {
+        "vi": "Giải pháp",
+        "en": "Solution"
+      },
+      "impact": {
+        "vi": "Giá trị mang lại",
+        "en": "Impact"
+      }
+    },
+    "contact": {
+      "kicker": {
+        "vi": "Liên hệ",
+        "en": "Contact"
+      },
+      "title": {
+        "vi": "Sẵn sàng cùng bạn tối ưu quy trình vận hành",
+        "en": "Ready to streamline your operations"
+      },
+      "description": {
+        "vi": "Nếu bạn cần xây workflow mới, nâng cấp hệ thống tự động hóa hiện tại hoặc tích hợp AI vào quy trình vận hành, tôi rất sẵn lòng trao đổi.",
+        "en": "If you need a new workflow, an upgrade to your current automation stack, or AI integrated into operations, I’d be glad to talk."
+      }
+    },
+    "footer": {
+      "vi": "© {year} {name}. Portfolio được thiết kế theo hướng tối giản, dễ mở rộng và dễ bảo trì.",
+      "en": "© {year} {name}. A minimalist portfolio built for scalability and maintainability."
+    },
+    "backToTop": {
+      "vi": "Lên đầu trang ↑",
+      "en": "Back to top ↑"
+    }
+  },
+  "profile": {
+    "name": "Nguyễn Trung Hiếu",
+    "role": {
+      "vi": "Automation Engineer",
+      "en": "Automation Engineer"
+    },
+    "greeting": {
+      "vi": "Xin chào, tôi là",
+      "en": "Hello, I’m"
+    },
+    "tagline": {
+      "vi": "Tôi xây dựng <strong>workflow automation</strong>, <strong>RPA</strong> và <strong>tích hợp API / AI</strong> để giảm thao tác thủ công, chuẩn hóa dữ liệu và giúp đội vận hành làm việc hiệu quả hơn.",
+      "en": "I build <strong>workflow automation</strong>, <strong>RPA</strong>, and <strong>API / AI integrations</strong> that reduce manual work, standardize data, and help operations teams move faster with fewer errors."
+    },
+    "highlights": [
+      {
+        "vi": "RPA với UiPath & Power Automate",
+        "en": "RPA with UiPath & Power Automate"
+      },
+      {
+        "vi": "Workflow orchestration bằng n8n",
+        "en": "Workflow orchestration with n8n"
+      },
+      {
+        "vi": "API integration, webhook, database",
+        "en": "API integration, webhooks, and databases"
+      }
     ],
-    "projects": [
-        {
-            "badge": "Video summarizer",
-            "image": "./assets/wf1.png",
-            "title": "Youtube Video Summarizer",
-            "stack": ["n8n", "Gemini API", "Youtube API", "ffmpeg"],
-            "desc": "Sử dụng Gemini để tạo script tổng hợp youtube video. Tự động tạo ảnh background, tạo audio, sử dụng ffmpeg để tạo video và tự động upload youtube short.",
-            "link": "https://github.com/hieunt1402/n8n"
-        },
-        {
-            "badge": "Douyin dowloader",
-            "image": "./assets/wf2.png",
-            "title": "Douyin Video Downloader",
-            "stack": ["n8n Form", "Tikhub API"],
-            "desc": "Sử dụng Tikhub API để tải video Douyin không logo. Tự động uplaod lên nextcloud và gửi link chia sẻ qua n8n form",
-            "link": "https://github.com/hieunt1402/n8n"
-        },
-        {
-            "badge": "Chatbot AI",
-            "image": "./assets/wf3.png",
-            "title": "Facebook Page Chatbot AI",
-            "stack": ["n8n", "Facebook webhook/API", "postgreSQL"],
-            "desc": "Facebook page chatbot tích hợp AI. Trả lời theo dữ liệu có sẵn, gửi hình ảnh, hỗ trợ chốt đơn và lưu thông tin khách hàng. Có thể tích hợp nhiều page cùng lúc.",
-            "link": "https://github.com/hieunt1402/n8n"
-        }
+    "location": {
+      "vi": "Việt Nam",
+      "en": "Vietnam"
+    },
+    "email": "hieunt0214@gmail.com",
+    "socials": {
+      "github": "https://github.com/hieunt1402",
+      "linkedin": "https://www.linkedin.com/in/nguyen-hieu-637736268/"
+    }
+  },
+  "stats": [
+    {
+      "value": "RPA",
+      "label": {
+        "vi": "UiPath, Power Automate, desktop flows",
+        "en": "UiPath, Power Automate, and desktop flows"
+      }
+    },
+    {
+      "value": "API",
+      "label": {
+        "vi": "Webhook, REST API, data orchestration",
+        "en": "Webhooks, REST APIs, and data orchestration"
+      }
+    },
+    {
+      "value": "AI",
+      "label": {
+        "vi": "AI-assisted workflow cho content & support",
+        "en": "AI-assisted workflows for content and support"
+      }
+    }
+  ],
+  "about": {
+    "paragraphs": [
+      {
+        "vi": "Hiện tại tôi làm việc với vai trò <strong>RPA Developer / Automation Engineer</strong>, tập trung triển khai các giải pháp tự động hóa giúp giảm thao tác lặp lại, tăng tính nhất quán và cải thiện tốc độ xử lý trong vận hành nội bộ.",
+        "en": "I currently work as an <strong>RPA Developer / Automation Engineer</strong>, building automation solutions that reduce repetitive tasks, improve consistency, and accelerate internal operations."
+      },
+      {
+        "vi": "Ngoài các nền tảng RPA như <strong>UiPath</strong> và <strong>Power Automate</strong>, tôi thường sử dụng <strong>n8n</strong> để orchestrate nhiều hệ thống thông qua API, webhook và database. Tôi cũng có kinh nghiệm với <strong>JavaScript</strong>, <strong>Python / FastAPI</strong>, <strong>Google Apps Script</strong>, <strong>Docker self-hosting</strong> và <strong>PostgreSQL</strong> để hoàn thiện giải pháp end-to-end.",
+        "en": "Beyond traditional RPA platforms such as <strong>UiPath</strong> and <strong>Power Automate</strong>, I use <strong>n8n</strong> to orchestrate systems through APIs, webhooks, and databases. I also work with <strong>JavaScript</strong>, <strong>Python / FastAPI</strong>, <strong>Google Apps Script</strong>, <strong>Docker self-hosting</strong>, and <strong>PostgreSQL</strong> to deliver end-to-end solutions."
+      },
+      {
+        "vi": "Mục tiêu của tôi không chỉ là tự động hóa một tác vụ riêng lẻ, mà là thiết kế workflow có cấu trúc rõ ràng, dễ mở rộng, dễ bàn giao và phù hợp với nhu cầu vận hành thực tế của doanh nghiệp.",
+        "en": "My goal is not just to automate isolated tasks, but to design workflows with clear structure, scalability, and handover-readiness for real business operations."
+      }
+    ],
+    "focusTitle": {
+      "vi": "Tôi thường tập trung vào",
+      "en": "My typical focus areas"
+    },
+    "focusItems": [
+      {
+        "vi": "Workflow automation cho content, vận hành và hỗ trợ khách hàng",
+        "en": "Workflow automation for content, operations, and customer support"
+      },
+      {
+        "vi": "Kết nối đa hệ thống bằng API, webhook và database",
+        "en": "Multi-system integration via APIs, webhooks, and databases"
+      },
+      {
+        "vi": "Self-hosting và triển khai giải pháp có thể vận hành nội bộ",
+        "en": "Self-hosting and deployment for internal operational use"
+      },
+      {
+        "vi": "Thiết kế cấu trúc dễ mở rộng và dễ bảo trì về sau",
+        "en": "Designing for scalability and long-term maintainability"
+      }
     ]
+  },
+  "skills": [
+    {
+      "icon": "fa-solid fa-diagram-project",
+      "title": {
+        "vi": "Automation Core",
+        "en": "Automation Core"
+      },
+      "items": [
+        {
+          "vi": "<strong>n8n</strong>: webhook, AI agent, form workflow, error handling, orchestration đa bước.",
+          "en": "<strong>n8n</strong>: webhooks, AI agents, form workflows, error handling, and multi-step orchestration."
+        },
+        {
+          "vi": "<strong>RPA</strong>: UiPath, Power Automate, desktop flows cho nghiệp vụ nội bộ.",
+          "en": "<strong>RPA</strong>: UiPath, Power Automate, and desktop flows for internal business processes."
+        }
+      ]
+    },
+    {
+      "icon": "fa-solid fa-code",
+      "title": {
+        "vi": "Programming",
+        "en": "Programming"
+      },
+      "items": [
+        {
+          "vi": "<strong>JavaScript</strong>: xử lý logic, data transformation và function node trong workflow.",
+          "en": "<strong>JavaScript</strong>: workflow logic, data transformation, and function-node scripting."
+        },
+        {
+          "vi": "<strong>Python / FastAPI</strong>: xây API, backend utility và service hỗ trợ automation.",
+          "en": "<strong>Python / FastAPI</strong>: APIs, backend utilities, and supporting services for automation."
+        },
+        {
+          "vi": "<strong>Google Apps Script</strong>: tự động hóa cho Google Workspace và spreadsheet workflow.",
+          "en": "<strong>Google Apps Script</strong>: automation for Google Workspace and spreadsheet-based workflows."
+        }
+      ]
+    },
+    {
+      "icon": "fa-solid fa-database",
+      "title": {
+        "vi": "Data & Integration",
+        "en": "Data & Integration"
+      },
+      "items": [
+        {
+          "vi": "<strong>PostgreSQL</strong>: thiết kế bảng, truy vấn dữ liệu và lưu trữ trạng thái workflow.",
+          "en": "<strong>PostgreSQL</strong>: schema design, querying, and workflow state storage."
+        },
+        {
+          "vi": "<strong>REST API / Webhook</strong>: kết nối dịch vụ, đồng bộ dữ liệu và trigger automation theo sự kiện.",
+          "en": "<strong>REST API / Webhooks</strong>: service integration, data sync, and event-driven automation."
+        }
+      ]
+    },
+    {
+      "icon": "fa-solid fa-server",
+      "title": {
+        "vi": "Deployment & Tools",
+        "en": "Deployment & Tools"
+      },
+      "items": [
+        {
+          "vi": "<strong>Docker / VPS</strong>: self-host n8n và triển khai dịch vụ hỗ trợ nội bộ.",
+          "en": "<strong>Docker / VPS</strong>: self-hosting n8n and deploying internal support services."
+        },
+        {
+          "vi": "<strong>Git / GitHub</strong>: quản lý source code, versioning và chia sẻ workflow.",
+          "en": "<strong>Git / GitHub</strong>: source control, versioning, and workflow sharing."
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "youtube-video-summarizer",
+      "badge": {
+        "vi": "Content Automation",
+        "en": "Content Automation"
+      },
+      "title": {
+        "vi": "YouTube Video Summarizer",
+        "en": "YouTube Video Summarizer"
+      },
+      "image": "./assets/wf1.png",
+      "summary": {
+        "vi": "Pipeline tự động hóa việc chuyển video dài thành video tóm tắt dạng ngắn để tối ưu quy trình sản xuất nội dung.",
+        "en": "An automated pipeline that turns long YouTube videos into short-form summary videos for a faster content production workflow."
+      },
+      "problem": {
+        "vi": "Quy trình tóm tắt video, viết script, tạo media asset, dựng video và đăng tải thường phải đi qua nhiều công cụ khác nhau, tốn thời gian và khó chuẩn hóa.",
+        "en": "Summarizing a video, writing a script, generating media assets, editing the clip, and publishing it usually involves multiple tools, lots of time, and inconsistent execution."
+      },
+      "solution": {
+        "vi": "Tôi xây workflow dùng <strong>n8n</strong> để điều phối toàn bộ pipeline: lấy dữ liệu video, dùng <strong>Gemini API</strong> tạo nội dung tóm tắt, sinh ảnh nền, tạo voice-over, dựng video bằng <strong>ffmpeg</strong> và tự động upload lên YouTube Shorts.",
+        "en": "I built an <strong>n8n</strong>-orchestrated pipeline that fetches video data, uses the <strong>Gemini API</strong> for summarization, generates background images and voice-over, assembles the final video with <strong>ffmpeg</strong>, and uploads it to YouTube Shorts."
+      },
+      "impact": {
+        "vi": "Workflow giúp rút ngắn đáng kể thời gian sản xuất nội dung, giảm thao tác thủ công giữa các công cụ và tạo nền tảng để mở rộng thành hệ thống content automation hoàn chỉnh.",
+        "en": "This workflow significantly reduces content production time, removes repetitive manual steps between tools, and creates a solid foundation for a broader content automation system."
+      },
+      "stack": ["n8n", "Gemini API", "YouTube API", "ffmpeg"],
+      "links": {
+        "repo": "https://github.com/hieunt1402/n8n"
+      }
+    },
+    {
+      "id": "douyin-video-downloader",
+      "badge": {
+        "vi": "Media Workflow",
+        "en": "Media Workflow"
+      },
+      "title": {
+        "vi": "Douyin Video Downloader",
+        "en": "Douyin Video Downloader"
+      },
+      "image": "./assets/wf2.png",
+      "summary": {
+        "vi": "Giải pháp tải video Douyin không logo, lưu trữ tập trung và trả lại liên kết chia sẻ thông qua form workflow.",
+        "en": "A workflow for downloading watermark-free Douyin videos, storing them centrally, and returning a shareable link through a form-based flow."
+      },
+      "problem": {
+        "vi": "Việc lấy video từ Douyin, lưu file về đúng nơi và gửi lại cho người dùng thường là quy trình rời rạc, phụ thuộc thao tác thủ công và khó theo dõi trạng thái xử lý.",
+        "en": "Getting videos from Douyin, placing files in the right storage location, and sending them back to the requester is usually fragmented, manual, and hard to track."
+      },
+      "solution": {
+        "vi": "Workflow sử dụng <strong>Tikhub API</strong> để tải video không logo, sau đó tự động upload lên <strong>Nextcloud</strong> và gửi lại link chia sẻ qua <strong>n8n Form</strong>, tạo thành luồng xử lý khép kín cho người dùng cuối.",
+        "en": "The workflow uses the <strong>Tikhub API</strong> to download watermark-free videos, uploads the result to <strong>Nextcloud</strong>, and returns the share link through an <strong>n8n Form</strong> for an end-to-end user flow."
+      },
+      "impact": {
+        "vi": "Dự án giúp đơn giản hóa quy trình khai thác media, tập trung hóa lưu trữ và giảm đáng kể số bước thao tác cần thiết để nhận được tệp hoàn chỉnh.",
+        "en": "The project simplifies media handling, centralizes storage, and reduces the number of steps required for users to receive the final asset."
+      },
+      "stack": ["n8n Form", "Tikhub API", "Nextcloud"],
+      "links": {
+        "repo": "https://github.com/hieunt1402/n8n"
+      }
+    },
+    {
+      "id": "facebook-page-chatbot-ai",
+      "badge": {
+        "vi": "AI Customer Support",
+        "en": "AI Customer Support"
+      },
+      "title": {
+        "vi": "Facebook Page Chatbot AI",
+        "en": "Facebook Page Chatbot AI"
+      },
+      "image": "./assets/wf3.png",
+      "summary": {
+        "vi": "Chatbot AI cho Facebook Page nhằm tự động phản hồi, tư vấn và hỗ trợ quy trình tương tác với khách hàng trên nhiều fanpage.",
+        "en": "An AI-powered chatbot for Facebook Pages that automates replies, consultation, and customer interaction workflows across multiple pages."
+      },
+      "problem": {
+        "vi": "Tin nhắn khách hàng trên fanpage cần phản hồi nhanh, đồng nhất và có khả năng lưu trữ thông tin để hỗ trợ bán hàng hoặc chăm sóc sau đó, nhưng xử lý thủ công thường chậm và thiếu nhất quán.",
+        "en": "Customer conversations on fan pages require quick, consistent responses and structured data capture for sales or support follow-up, but manual handling is often slow and inconsistent."
+      },
+      "solution": {
+        "vi": "Tôi xây hệ thống chatbot bằng <strong>n8n</strong> kết hợp <strong>Facebook Webhook / API</strong> và <strong>PostgreSQL</strong> để tiếp nhận tin nhắn, phản hồi theo dữ liệu có sẵn, gửi hình ảnh khi cần, lưu thông tin khách hàng và hỗ trợ triển khai đồng thời trên nhiều page.",
+        "en": "I built the chatbot with <strong>n8n</strong>, <strong>Facebook Webhook / API</strong>, and <strong>PostgreSQL</strong> to receive messages, reply based on available knowledge, send images when needed, store customer data, and support multi-page deployment."
+      },
+      "impact": {
+        "vi": "Giải pháp tăng tốc độ phản hồi, chuẩn hóa chất lượng tư vấn ban đầu và tạo nền tảng dữ liệu tốt hơn cho các bước chăm sóc, bán hàng hoặc mở rộng kịch bản AI support về sau.",
+        "en": "The solution improves response speed, standardizes first-touch support quality, and creates a stronger data foundation for follow-up sales, customer care, or expanded AI support scenarios."
+      },
+      "stack": ["n8n", "Facebook Webhook/API", "PostgreSQL"],
+      "links": {
+        "repo": "https://github.com/hieunt1402/n8n"
+      }
+    }
+  ],
+  "contact": {
+    "details": {
+      "email": {
+        "vi": "Email",
+        "en": "Email"
+      },
+      "location": {
+        "vi": "Khu vực làm việc",
+        "en": "Base"
+      }
+    }
+  }
 }

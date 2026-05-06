@@ -1,97 +1,182 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Automation Engineer</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nguyễn Trung Hiếu | Automation Engineer</title>
+  <meta
+    name="description"
+    content="Portfolio của Nguyễn Trung Hiếu - Automation Engineer chuyên workflow automation, RPA, API integration và AI-powered operations."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+  <link rel="icon" type="image/png" href="https://img.icons8.com/flat-round/64/checkmark.png">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="page-shell">
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a href="#top" class="brand" aria-label="Go to top">
+          <span class="brand-mark">&lt;/&gt;</span>
+          <div class="brand-copy">
+            <strong id="brand-name">Hiếu</strong>
+            <span id="brand-role">Automation Engineer</span>
+          </div>
+        </a>
 
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="logo">Dev<span>Automation.</span></div>
-        <ul class="nav-links">
-            <li><a href="#home">Trang chủ</a></li>
-            <li><a href="#about">Về tôi</a></li>
-            <li><a href="#skills">Kỹ năng</a></li>
-            <li><a href="#projects">Dự án</a></li>
-            <li><a href="#contact">Liên hệ</a></li>
-        </ul>
-        <div class="hamburger">
-            <i class="fas fa-bars"></i>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <ul id="nav-list"></ul>
+        </nav>
+
+        <div class="header-actions">
+          <button
+            class="lang-toggle"
+            id="lang-toggle"
+            type="button"
+            aria-label="Toggle language"
+          >
+            EN
+          </button>
+
+          <button
+            class="menu-toggle"
+            id="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="site-nav"
+            aria-label="Open menu"
+          >
+            <span></span><span></span><span></span>
+          </button>
         </div>
-    </nav>
+      </div>
+    </header>
 
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <span class="greeting" id="hero-greeting">Loading...</span>
-            <h1><span id="hero-name"></span><br><span class="highlight" id="hero-role"></span></h1>
-            <p class="description" id="hero-desc"></p>
-            <div class="hero-btns">
-                <a href="#projects" class="btn primary-btn">Xem Workflow</a>
-                <a href="#contact" class="btn secondary-btn">Liên Hệ</a>
+    <main>
+      <!-- Hero -->
+      <section class="hero section" id="home">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow" id="hero-greeting"></span>
+
+            <h1 class="hero-title">
+              <span id="hero-name"></span>
+              <span class="accent" id="hero-role"></span>
+            </h1>
+
+            <p class="hero-description" id="hero-tagline"></p>
+
+            <div class="hero-actions" id="hero-actions"></div>
+            <ul class="hero-meta" id="hero-meta"></ul>
+          </div>
+
+          <aside class="hero-panel card">
+            <div class="hero-panel-inner">
+              <p class="panel-label" id="hero-panel-label"></p>
+              <div class="hero-stats" id="hero-stats"></div>
             </div>
+          </aside>
         </div>
-    </section>
+      </section>
 
-    <!-- About Section -->
-    <section id="about" class="container">
-        <h2 class="section-title">Giới Thiệu</h2>
-        <div class="about-content">
-            <div class="about-text" id="about-text">
-                <!-- Data injected via JS -->
+      <!-- About -->
+      <section class="section" id="about">
+        <div class="container section-stack">
+          <div class="section-head">
+            <span class="section-kicker" id="about-kicker"></span>
+            <h2 class="section-title" id="about-title"></h2>
+            <p class="section-description" id="about-description"></p>
+          </div>
+
+          <div class="about-grid">
+            <article class="card prose-card" id="about-content"></article>
+
+            <aside class="card focus-card">
+              <h3 id="focus-title"></h3>
+              <ul id="focus-list"></ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section section-muted" id="skills">
+        <div class="container section-stack">
+          <div class="section-head">
+            <span class="section-kicker" id="skills-kicker"></span>
+            <h2 class="section-title" id="skills-title"></h2>
+            <p class="section-description" id="skills-description"></p>
+          </div>
+
+          <div class="skills-grid" id="skills-grid"></div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section class="section" id="projects">
+        <div class="container section-stack">
+          <div class="section-head section-head-split">
+            <div>
+              <span class="section-kicker" id="projects-kicker"></span>
+              <h2 class="section-title" id="projects-title"></h2>
+              <p class="section-description" id="projects-description"></p>
             </div>
-        </div>
-    </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="container bg-alt">
-        <h2 class="section-title">Kỹ Năng & Công Nghệ</h2>
-        <div class="skills-grid" id="skills-grid">
-            <!-- Data injected via JS -->
-        </div>
-    </section>
+            <a class="ghost-link" id="projects-ghost-link" href="#contact"></a>
+          </div>
 
-    <!-- Projects Section -->
-    <section id="projects" class="container">
-        <h2 class="section-title">Dự Án Thực Tế</h2>
-        <div class="project-grid" id="project-grid">
-            <!-- Data injected via JS -->
+          <div class="projects-grid" id="projects-grid"></div>
         </div>
-    </section>
+      </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="container">
-        <div class="contact-box">
-            <h2>Sẵn sàng tối ưu hóa doanh nghiệp?</h2>
-            <p>Kết nối ngay để trao đổi về giải pháp Automation.</p>
-            <a href="#" class="btn primary-btn email-btn" id="contact-email">
-                <i class="fas fa-envelope"></i> <span>Contact Me</span>
-            </a>
-            <div class="social-links">
-                <a href="#" target="_blank" id="contact-github"><i class="fab fa-github"></i></a>
-                <a href="#" target="_blank" id="contact-linkedin"><i class="fab fa-linkedin"></i></a>
+      <!-- Contact -->
+      <section class="section section-muted" id="contact">
+        <div class="container">
+          <div class="contact-card card">
+            <div class="contact-copy">
+              <span class="section-kicker" id="contact-kicker"></span>
+              <h2 class="section-title" id="contact-title"></h2>
+              <p class="section-description" id="contact-description"></p>
+              <div class="contact-actions" id="contact-actions"></div>
             </div>
-        </div>
-    </section>
 
-    <footer>
-        <p>&copy; 2025 Automation Portfolio. Designed for Success.</p>
+            <div class="contact-details" id="contact-details"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p id="footer-text"></p>
+        <a href="#home" class="back-to-top" id="back-to-top"></a>
+      </div>
     </footer>
+  </div>
 
-    <!-- Image Modal (Lightbox) -->
-    <div id="image-modal" class="modal">
-        <span class="close-modal">&times;</span>
-        <img class="modal-content" id="img01">
-        <div id="caption"></div>
-    </div>
+  <!-- Image Modal -->
+  <dialog class="image-modal" id="image-modal">
+    <button
+      class="modal-close"
+      id="modal-close"
+      type="button"
+      aria-label="Close image preview"
+    >
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <img id="modal-image" alt="Project preview" />
+    <p id="modal-caption"></p>
+  </dialog>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
