@@ -79,7 +79,7 @@ const App = (() => {
     const { site, profile } = state.data;
     document.documentElement.lang = state.lang;
     document.title = t(site.title);
-    els.brandName.textContent = profile.name;
+    els.brandName.textContent = t(profile.name);
     els.brandRole.textContent = t(profile.role);
     els.langToggle.textContent = state.lang === "vi" ? "EN" : "VI";
   }
@@ -101,7 +101,7 @@ const App = (() => {
     const { ui, profile, stats } = state.data;
 
     els.heroGreeting.textContent = t(profile.greeting);
-    els.heroName.textContent = profile.name;
+    els.heroName.textContent = t(profile.name);
     els.heroRole.textContent = t(profile.role);
     els.heroTagline.innerHTML = t(profile.tagline);
     els.heroPanelLabel.textContent = t(ui.heroPanelLabel);
