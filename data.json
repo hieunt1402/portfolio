@@ -161,7 +161,10 @@
     }
   },
   "profile": {
-    "name": "Nguyễn Trung Hiếu",
+    "name": {
+      "vi": "Nguyễn Trung Hiếu",
+      "en": "Nguyen Trung Hieu"
+    },
     "role": {
       "vi": "Automation Engineer",
       "en": "Automation Engineer"
